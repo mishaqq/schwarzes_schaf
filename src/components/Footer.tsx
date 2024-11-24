@@ -1,5 +1,5 @@
-import React from 'react';
-import { Instagram, Mail, MapPin } from 'lucide-react';
+import React from "react";
+import { Instagram, Mail, MapPin } from "lucide-react";
 
 function Footer() {
   return (
@@ -9,7 +9,7 @@ function Footer() {
           <div>
             <h3 className="text-lg font-semibold mb-4">Schwarzes Schaf</h3>
             <p className="text-neutral-400 text-sm">
-              Kunstvolle Tätowierungen und einzigartige Designs in einer 
+              Kunstvolle Tätowierungen und einzigartige Designs in einer
               entspannten Atmosphäre.
             </p>
           </div>
@@ -18,17 +18,25 @@ function Footer() {
             <div className="space-y-2 text-neutral-400 text-sm">
               <div className="flex items-center space-x-2">
                 <MapPin className="h-4 w-4" />
-                <span>Musterstraße 123, 12345 Berlin</span>
+                <span>Hahnengasse 11, 89073 Ulm</span>
               </div>
               <div className="flex items-center space-x-2">
                 <Mail className="h-4 w-4" />
-                <a href="mailto:info@schwarzes-schaf.de" className="hover:text-white transition-colors">
+                <a
+                  href="mailto:info@schwarzes-schaf.de"
+                  className="hover:text-white transition-colors"
+                >
                   info@schwarzes-schaf.de
                 </a>
               </div>
               <div className="flex items-center space-x-2">
                 <Instagram className="h-4 w-4" />
-                <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
+                <a
+                  href="https://instagram.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-white transition-colors"
+                >
                   @schwarzes.schaf.tattoo
                 </a>
               </div>
@@ -44,7 +52,10 @@ function Footer() {
           </div>
         </div>
         <div className="mt-8 pt-8 border-t border-neutral-800 text-center text-neutral-400 text-sm">
-          <p>© {new Date().getFullYear()} Schwarzes Schaf Tattoo. Alle Rechte vorbehalten.</p>
+          <p>
+            © {new Date().getFullYear()} Schwarzes Schaf Tattoo. Alle Rechte
+            vorbehalten.
+          </p>
         </div>
       </div>
     </footer>
